@@ -1,14 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
-import Todo from "./components/Todo";
+// import Timer from "./components/Timer";
+import Stopwatch from "./components/Stopwatch";
 
 function App() {
   return (
     <div className="App">
-      <Todo />
+      <Timer/>
+      <Stopwatch/>
+      
     </div>
   );
 }
-
 export default App;
